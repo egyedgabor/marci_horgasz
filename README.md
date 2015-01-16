@@ -1,3 +1,3 @@
 # marci_horgasz
 
-marcinak horgásztúravezetéshez honlap
+Marcinak horgásztúravezetéshez honlap
