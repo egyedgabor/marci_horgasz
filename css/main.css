@@ -1,0 +1,21 @@
+.menu { 
+float: right;
+
+}
+.hatter {
+	background-image: url("http://www.guideviaggi.net/images/fotoalbum/Balaton/Balaton_al_tramonto.jpg"); 
+}
+.kep {
+	border: solid;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+}
+.one {
+	margin-top: 20px; 
+	margin-left: 10px;
+}
+.onenext {
+	margin-top: 40px; 
+}
+}
