@@ -18,8 +18,8 @@
     </head>
 <!-- NAVBAR
 ================================================== -->
-    <body>
-        <div class="container-fluid">
+    <body class="hatter">
+        <div class="container-fluid ">
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
@@ -37,7 +37,7 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Kezdőlap</a></li>
                             <li><a href="#about">Rólam</a></li>
-                            <li><a href="#contact">Kapcsolat</a></li>
+                            <li><a href="#contact">Kapcsolat</a></li>                            
                             <li class="dropdown">
                                 <a  href="#" class="dropdown-toggle " data-toggle="dropdown" 
                                     role="button" aria-expanded="false">Média <span class="caret">
@@ -49,6 +49,13 @@
                                     <li><a style="color: gray" href="#">Vélemények</a></li>
                                 </ul>
                             </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><img src="image/SSH_kopf.png" style=" margin-top: 10px; height:30px; width:70px;"></li>
+                            <li><img src="image/energo_logo.jpg" style=" margin-top: 10px; height:30px; width:40px;"></li>
+                           
+                            <li><img src="image/carplove.png" style=" margin-top: 10px; height:30px; width:70px;"></li>
+                            <li><img src="image/fhtv.jpg" style=" margin-top: 10px; height:30px; width:40px;"></li>
                         </ul>
                     </div>
                 </div>
@@ -71,11 +78,13 @@
                 <div class="col-lg-4">
                     <img class="img-circle rotation" src="image/:D.jpg" 
                         style="width: 100px; height: 100px;">
-                    <h2>Rólam</h2>
-                    <p >Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból 
-                        kinövő vállalkozás, melyet a közös hobbi szeretete tart össze. 
-                        Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan 
-                        dologgal foglalkozni, melyben egyben örömét is leli?</p>
+                    <div class="">
+                        <h2>Rólam</h2>
+                        <p >Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból 
+                            kinövő vállalkozás, melyet a közös hobbi szeretete tart össze. 
+                            Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan 
+                            dologgal foglalkozni, melyben egyben örömét is leli?</p>
+                    </div>    
                     <a class="btn btn-default">
                         <span class="glyphicon glyphicon-share-alt" aria-hidden="true">
                         </span> Tovább
@@ -168,27 +177,27 @@
 
       <!-- START THE FEATURETTES -->
 
-            <hr class="featurette-divider">
+            <hr class="featurette-divider" >
 
-            <div class="row featurette">
+            <div class="row featurette" style="color:white;">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. 
-                    <span class="text-muted">It'll blow your mind.</span></h2>
+                    <h2 class="featurette-heading" >A Balatoni potyka! 
+                    </h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. 
                     Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
                     magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
                     commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto">
+                    <img class="featurette-image img-responsive" src="image/fish 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
                 </div>
             </div>
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
+            <div class="row featurette" style="color:white;">
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto">
+                    <img class="featurette-image img-responsive" src="image/boat 2.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
                 </div>
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Oh yeah, it's that good. 
@@ -202,7 +211,7 @@
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
+            <div class="row featurette" style="color:white;">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">
                         Checkmate.</span></h2>
@@ -212,23 +221,36 @@
                                     ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive" src="image/house 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
                 </div>
             </div>
 
             <hr class="featurette-divider">
+        </div>
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>
-
-        </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <footer class="site-footer" style="background: black; opacity:0.8;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-offset-1 col-xs-7">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="color:red"></span></h4>
+                        <address>
+                            Nárcisz u. 11 <br>
+                            Balatonszárszó <br>
+                            Magyarország <br>
+                            <span class="glyphicon glyphicon-envelope"style="color:#8BCBF7"></span><br>
+                            <a href="mailto:#" style="color:#fff">sk8marci@gmail.com</a>
+                        </address>
+                    </div>                   
+                    <div class="images-responsive col-xs-4" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2729.459230091131!2d17.843021699999998!3d46.834649!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769ba7670851929%3A0x9b340f6b21a1d945!2sN%C3%A1rcisz+u.+11%2C+Balatonsz%C3%A1rsz%C3%B3%2C+8624+Hungary!5e0!3m2!1sen!2sus!4v1421584642088" frameborder="0" style="border:0"> ></iframe>
+                    </div>               
+                </div>
+            </div>
+        </footer>       
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

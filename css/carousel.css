@@ -3,11 +3,18 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+  
   color: #5a5a5a;
-  background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
+  
 }
+.hatter {
+  background-image: url("http://cdn.desktopwallpapers4.me/wallpapers/abstract/1680x1050/1/3201-wooden-fence-1680x1050-abstract-wallpaper.jpg");
+  background-repeat:no-repeat;
+background-attachment: fixed;
+position: relative; 
+background-size: 100%;
 
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -77,6 +84,10 @@ body {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+.box {
+  background-color: rgba(0,0,0,0.5);
+
 }
 .rotation:hover {
   -webkit-animation: rotation 2s linear infinite;
