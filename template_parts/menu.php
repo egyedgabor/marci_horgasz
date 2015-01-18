@@ -16,12 +16,12 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active ">
+                    <li class="menu-item active ">
                         <a class="glyphicon glyphicon-home" href="index.php"></a>
                     </li>
-                    <li><a href="about_me.php">Rólam</a></li>
-                    <li><a href="contact.php">Kapcsolat</a></li> 
-                    <li><a href="prices.php">Árak</a></li>                            
+                    <li class="menu-item"><a href="about_me.php">Rólam</a></li>
+                    <li class="menu-item"><a href="contact.php">Kapcsolat</a></li> 
+                    <li class="menu-item"><a href="prices.php">Árak</a></li>                            
                     <li class="dropdown">
                         <a  href="" class="dropdown-toggle " data-toggle="dropdown" 
                             role="button" aria-expanded="false">Média <span class="caret">

@@ -10,10 +10,10 @@
                     </a>
                     <div class="">
                         <h2>Rólam</h2>
-                        <p >Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból 
-                            kinövő vállalkozás, melyet a közös hobbi szeretete tart össze.
-                            Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan
-                            dologgal foglalkozni, melyben egyben örömét is leli?</p>
+                        <p >Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen 
+                            készítünk vonzó ajánlatokat a világ legjobb horgászhelyeire. 2009-ben 
+                            több új úticélunk szervezésére kizárólagos jogot szereztünk nem csak 
+                            Magyarországon, hanem a közép-európai régióban is.</p>
                     </div>    
                     <a class="btn btn-default">
                         <span class="glyphicon glyphicon-share-alt" aria-hidden="true">
@@ -24,7 +24,7 @@
                     <a href="#about">
                         <img class="img-circle rotation marketing_image" src="image/adventure.png">
                     </a>
-                    <h2>Adventure fishing</h2>
+                    <h2>Adventure Fishing</h2>
                     <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
                        vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
                        szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
@@ -39,10 +39,9 @@
                         <img class="img-circle rotation marketing_image" src="image/house.jpg">
                     </a>
                     <h2>Szálások</h2>
-                    <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
-                       vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian 
-                       szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
-                       melyben egyben örömét is leli?</p>
+                    <p>Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
+                       kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
+                       Nagyszerű horgászati lehetőségek vannak Balatonszárszón.</p>
                     <a class="btn btn-default">
                         <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
                               Tovább
@@ -114,10 +113,14 @@
                 <div class="col-md-7">
                     <h2 class="featurette-heading" >A Balatoni potyka! 
                     </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. 
-                    Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
-                    magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.</p>
+                    <p class="lead">a sugarasúszójú csontos halak közé tartozó típusfaj,
+                                    a pontyalakúak rendjének és a pontyfélék családjának névadója.
+                                    Palearktikus elterjedésű halfaj. Eredeti őshazája Ázsia, 
+                                    valamint Európa keleti fele (Kelet-Európa és a Duna-medence), 
+                                    de tenyésztési céllal máshova is betelepítették, így ma már 
+                                    gyakorlatilag minden földrész édesvizeiben megtalálható.
+                                    A mérsékelt égövi alföldi vidékek tavait és lassú vizű 
+                                    folyóit kedveli.</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="image/fish 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
@@ -132,10 +135,13 @@
                 </div>
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. 
-                    Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus
-                     magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus 
-                     commodo.</p>
+                    <p class="lead">A várakozásomnak megfelelően nagyon stabil alkotmánynak
+                                    bizonyult, nem billeg, és a lapos fenéknek köszönhetően az
+                                    orrát se emelgeti az evezőcsapásokra. Akár két ember is
+                                    kiállhat az oldalára, akkor is messze van a felborulástól.
+                                    Vígan belefér az egész család, de magányos horgászatnál is jól
+                                    jön a tágassága, kényelme. Nagyon tetszik, legszívesebben ki se
+                                    szállnék belőle :-)</p>
                 </div>
             </div>
 
@@ -143,12 +149,16 @@
 
             <div class="row featurette" style="color:white;">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">
-                        Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                                    id ligula porta felis euismod semper. Praesent commodo cursus 
-                                    magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                                    ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Balatonszárszói apartman</h2>
+                    <p class="lead">Balatonszárszó egyre felkapottabb üdülőhely a gyermekes 
+                                    családok körében, mivel a környéken 3 szabadstrand is 
+                                    található, melyek jól felszereltek 
+                                    ( focipálya, tenisz, röplabdapálya) valamint modern játszóterei
+                                    is gondoskodnak gyermekei szórakoztatásáról.A központi strandon
+                                    található sekélyvizű gyermeköböl egyedülálló a déli parton, 
+                                    kifejezetten kisgyermekes családoknak ajánlott.
+                                    Az itt lévő strandok vize sekély, homokos, nem iszapos partja 
+                                    rendezett , fásított , fűvel borított.</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="image/house 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
