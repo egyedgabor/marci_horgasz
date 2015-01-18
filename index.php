@@ -1,31 +1,18 @@
-<?php?>
 <html >
     <?php include "template_parts/header.php" ?>
-
     <body class="hatter">
         <?php include "template_parts/menu.php" ?>
-
-
-    <!-- Carousel
-    ================================================== -->
-    
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
         <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
             <div class="row " style="color: white;">
                 <div class="col-lg-4">
-                    <a href="#about"><img class="img-circle rotation" src="image/:D.jpg" 
-                        style="width: 100px; height: 100px;"></a>
+                    <a href="about_me.php">
+                        <img class="img-circle rotation marketing_image" src="image/:D.jpg">
+                    </a>
                     <div class="">
                         <h2>Rólam</h2>
                         <p >Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból 
-                            kinövő vállalkozás, melyet a közös hobbi szeretete tart össze. 
-                            Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan 
+                            kinövő vállalkozás, melyet a közös hobbi szeretete tart össze.
+                            Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan
                             dologgal foglalkozni, melyben egyben örömét is leli?</p>
                     </div>    
                     <a class="btn btn-default">
@@ -34,8 +21,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#about"><img class="img-circle rotation" src="image/adventure.png" 
-                         style="width: 100px; height: 100px;"></a>
+                    <a href="#about">
+                        <img class="img-circle rotation marketing_image" src="image/adventure.png">
+                    </a>
                     <h2>Adventure fishing</h2>
                     <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
                        vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
@@ -45,19 +33,23 @@
                         <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> 
                         Tovább
                     </a>
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <div class="col-lg-4">
-                    <a href="#about"><img class="img-circle rotation " src="image/house.jpg" style="width: 100px; height: 100px;"></a>
-                    <h2>Szálások</h2>
-                    <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni, melyben egyben örömét is leli?</p>
-                    <a class="btn btn-default">
-                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Tovább
+                    <a href="#about">
+                        <img class="img-circle rotation marketing_image" src="image/house.jpg">
                     </a>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
+                    <h2>Szálások</h2>
+                    <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
+                       vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian 
+                       szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
+                       melyben egyben örömét is leli?</p>
+                    <a class="btn btn-default">
+                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+                              Tovább
+                    </a>
+                </div>
+            </div>
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-      <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -116,12 +108,8 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div><!-- /.carousel -->
-
-      <!-- START THE FEATURETTES -->
-
+            </div>
             <hr class="featurette-divider" >
-
             <div class="row featurette" style="color:white;">
                 <div class="col-md-7">
                     <h2 class="featurette-heading" >A Balatoni potyka! 
@@ -166,19 +154,9 @@
                     <img class="featurette-image img-responsive" src="image/house 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
                 </div>
             </div>
-
             <hr class="featurette-divider">
         </div>
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
         <?php include "template_parts/footer.php" ?>
-      
         <?php include "template_parts/js.php" ?>
-
     </body>
-
 </html>
-

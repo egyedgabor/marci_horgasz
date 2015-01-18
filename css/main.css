@@ -1,21 +1,56 @@
-.menu { 
-float: right;
+.marketing_image {
+    width: 100px;
+    height: 100px;
+}
+
+.hatter {
+    background-image: url("../image/bg.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: 100%;
+}
+
+.fb_image {
+    border: solid;
+    border-radius: 20px;
+    border-color: #3b5998;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu > li > a {
+    color: gray;
+}
+
+.sponsors > li > a {
+    padding: 5px;
+}
+
+.sponsors > li > a > img {
+    margin-top: 10px;
+    height:30px;
+}
 
 }
-.hatter {
-	background-image: url("http://www.guideviaggi.net/images/fotoalbum/Balaton/Balaton_al_tramonto.jpg"); 
+
+
+.rotation:hover {
+  -webkit-animation: rotation 2s linear infinite;
+    -moz-animation: rotation 2s linear infinite;
+    -ms-animation: rotation 2s linear infinite;
 }
-.kep {
-	border: solid;
-	width: 200px;
-	height: 200px;
-	border-radius: 150px;
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
 }
-.one {
-	margin-top: 20px; 
-	margin-left: 10px;
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
 }
-.onenext {
-	margin-top: 40px; 
-}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
 }

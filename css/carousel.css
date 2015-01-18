@@ -7,14 +7,7 @@ body {
   color: #5a5a5a;
   
 }
-.hatter {
-  background-image: url("http://cdn.desktopwallpapers4.me/wallpapers/abstract/1680x1050/1/3201-wooden-fence-1680x1050-abstract-wallpaper.jpg");
-  background-repeat:no-repeat;
-background-attachment: fixed;
-position: relative; 
-background-size: 100%;
 
-}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -27,12 +20,7 @@ background-size: 100%;
   left: 0;
   z-index: 20;
 }
-.kep {
-  border: solid;
-  width: 200px;
-  height: 200px;
-  border-radius: 150px;
-}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -90,29 +78,7 @@ background-size: 100%;
   margin-right: 10px;
   margin-left: 10px;
 }
-.box {
-  background-color: rgba(0,0,0,0.5);
 
-}
-.rotation:hover {
-  -webkit-animation: rotation 2s linear infinite;
-    -moz-animation: rotation 2s linear infinite;
-    -ms-animation: rotation 2s linear infinite;
-}
-
-@-webkit-keyframes rotation {
-    0%   { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-@-moz-keyframes rotation {
-    0%   { -moz-transform: rotate(0deg); }
-    100% { -moz-transform: rotate(360deg); }
-}
-@-ms-keyframes rotation {
-    0%   { -ms-transform: rotate(0deg); }
-    100% { -ms-transform: rotate(360deg); }
-}
-}
 
 
 /* Featurettes
