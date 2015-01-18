@@ -1,66 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="image/icon.png">
+<?php?>
+<html >
+    <?php include "template_parts/header.php" ?>
 
-        <title>Héjja Márton Kristóf</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <link href="css/carousel.css" rel="stylesheet">
-    </head>
-<!-- NAVBAR
-================================================== -->
     <body class="hatter">
-        <div class="container-fluid ">
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" 
-                                data-toggle="collapse" data-target="#navbar" aria-expanded="false" 
-                                aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Héjja Márton Kristóf</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Kezdőlap</a></li>
-                            <li><a href="#about">Rólam</a></li>
-                            <li><a href="#contact">Kapcsolat</a></li>                            
-                            <li class="dropdown">
-                                <a  href="#" class="dropdown-toggle " data-toggle="dropdown" 
-                                    role="button" aria-expanded="false">Média <span class="caret">
-                                    </span></a>
-                                <ul class="dropdown-menu navbar-inverse" role="menu">
-                                    <li><a style="color: gray" href="#">Képek</a></li>
-                                    <li><a style="color: gray" href="#">Videók</a></li>
-                                    <li><a style="color: gray" href="#">Blog</a></li> 
-                                    <li><a style="color: gray" href="#">Vélemények</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><img src="image/SSH_kopf.png" style=" margin-top: 10px; height:30px; width:70px;"></li>
-                            <li><img src="image/energo_logo.jpg" style=" margin-top: 10px; height:30px; width:40px;"></li>
-                           
-                            <li><img src="image/carplove.png" style=" margin-top: 10px; height:30px; width:70px;"></li>
-                            <li><img src="image/fhtv.jpg" style=" margin-top: 10px; height:30px; width:40px;"></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <?php include "template_parts/menu.php" ?>
 
 
     <!-- Carousel
@@ -76,8 +19,8 @@
       <!-- Three columns of text below the carousel -->
             <div class="row " style="color: white;">
                 <div class="col-lg-4">
-                    <img class="img-circle rotation" src="image/:D.jpg" 
-                        style="width: 100px; height: 100px;">
+                    <a href="#about"><img class="img-circle rotation" src="image/:D.jpg" 
+                        style="width: 100px; height: 100px;"></a>
                     <div class="">
                         <h2>Rólam</h2>
                         <p >Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból 
@@ -91,8 +34,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-circle rotation" src="image/adventure.png" 
-                         style="width: 100px; height: 100px;">
+                    <a href="#about"><img class="img-circle rotation" src="image/adventure.png" 
+                         style="width: 100px; height: 100px;"></a>
                     <h2>Adventure fishing</h2>
                     <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
                        vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
@@ -104,7 +47,7 @@
                     </a>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle rotation " src="image/house.jpg" style="width: 100px; height: 100px;">
+                    <a href="#about"><img class="img-circle rotation " src="image/house.jpg" style="width: 100px; height: 100px;"></a>
                     <h2>Szálások</h2>
                     <p>Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni, melyben egyben örömét is leli?</p>
                     <a class="btn btn-default">
@@ -200,8 +143,7 @@
                     <img class="featurette-image img-responsive" src="image/boat 2.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
                 </div>
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. 
-                    <span class="text-muted">See for yourself.</span></h2>
+                    <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. 
                     Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus
                      magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus 
@@ -232,25 +174,11 @@
 
 
       <!-- FOOTER -->
-        <footer class="site-footer" style="background: black; opacity:0.8;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-offset-1 col-xs-7">
-                        <h4><span class="glyphicon glyphicon-map-marker" style="color:red"></span></h4>
-                        <address>
-                            Nárcisz u. 11 <br>
-                            Balatonszárszó <br>
-                            Magyarország <br>
-                            <span class="glyphicon glyphicon-envelope"style="color:#8BCBF7"></span><br>
-                            <a href="mailto:#" style="color:#fff">sk8marci@gmail.com</a>
-                        </address>
-                    </div>                   
-                    <div class="images-responsive col-xs-4" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2729.459230091131!2d17.843021699999998!3d46.834649!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769ba7670851929%3A0x9b340f6b21a1d945!2sN%C3%A1rcisz+u.+11%2C+Balatonsz%C3%A1rsz%C3%B3%2C+8624+Hungary!5e0!3m2!1sen!2sus!4v1421584642088" frameborder="0" style="border:0"> ></iframe>
-                    </div>               
-                </div>
-            </div>
-        </footer>       
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <?php include "template_parts/footer.php" ?>
+      
+        <?php include "template_parts/js.php" ?>
+
     </body>
+
 </html>
+

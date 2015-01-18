@@ -27,7 +27,12 @@ background-size: 100%;
   left: 0;
   z-index: 20;
 }
-
+.kep {
+  border: solid;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
