@@ -15,17 +15,16 @@
                 <a class="navbar-brand" href="index.php">Héjja Márton Kristóf</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="menu-item active ">
+                <ul class="nav navbar-nav menu">
+                    <li class="menu-item">
                         <a class="glyphicon glyphicon-home" href="index.php"></a>
                     </li>
-                    <li class="menu-item"><a href="about_me.php">Rólam</a></li>
+                    <li class="menu-item"><a href="about_me.php">Rólam</a> </li>
                     <li class="menu-item"><a href="contact.php">Kapcsolat</a></li> 
                     <li class="menu-item"><a href="prices.php">Árak</a></li>                            
-                    <li class="dropdown">
-                        <a  href="" class="dropdown-toggle " data-toggle="dropdown" 
-                            role="button" aria-expanded="false">Média <span class="caret">
-                            </span></a>
+                    <li class="menu-item dropdown">
+                        <a  href="media.php" class="dropdown-toggle " data-toggle="dropdown" 
+                            role="button" aria-expanded="false">Média </a>
                         <ul class="dropdown-menu navbar-inverse" role="menu">
                             <li><a href="pictures.php">Képek</a></li>
                             <li><a href="videos.php">Videók</a></li>

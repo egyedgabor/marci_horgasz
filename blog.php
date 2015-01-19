@@ -1,4 +1,4 @@
-<?php?>
+
 <html>
     <?php include "template_parts/header.php" ?>
     <body class="hatter">

@@ -5,11 +5,9 @@
 
 .hatter {
     background-image: url("../image/bg.jpg");
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    background-size: 100%;
+    
 }
+
 
 .fb_image {
     border: solid;
@@ -33,6 +31,30 @@
     height:30px;
 }
 
+.profile {
+    border-radius: 300px;
+    border-style: solid;
+    border-color: #330000;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.box {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px; 
+}
+
+.marketing-image {
+    width: 10%;
+    height: 100%;
+    float: right;
 }
 
 

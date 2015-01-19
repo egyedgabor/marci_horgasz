@@ -38,7 +38,7 @@
                     <a href="#about">
                         <img class="img-circle rotation marketing_image" src="image/house.jpg">
                     </a>
-                    <h2>Szálások</h2>
+                    <h2>Szállások</h2>
                     <p>Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
                        kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
                        Nagyszerű horgászati lehetőségek vannak Balatonszárszón.</p>
@@ -73,8 +73,7 @@
                         <div class="container">
                             <div class="carousel-caption" >
                                 <h1>Balaton</h1>
-                                <p>Keleti medencéjét a Tihanyi-félsziget választja el a tó többi 
-                                   részétől. Déli partjánál medre sekélyebb. Északi oldalán 
+                                <p> Déli partjánál medre sekélyebb. Északi oldalán 
                                    találhatóa badacsonyi borvidék és a Tapolcai-medence, 
                                    jellegzetes vulkáni tanúhegyeivel. A tó egyes részein halászat 
                                    folyik.</p>
@@ -84,12 +83,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="image/1.jpg" alt="Third slide">
+                        <img src="image/2.jpg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption" >
                                 <h1>Balaton</h1>
-                                <p>Budapest mellett az ország turisztikailag leglátogatottabb 
-                                   területe, 2004-ben elnyerte az Örökségünk Környékén gyógyfürdők, termálforrások találhatók. A tavon minden évben megrendezik a 
+                                <p>2004-ben elnyerte az Örökségünk Környékén gyógyfürdők,
+                                   termálforrások találhatók. A tavon minden évben megrendezik a 
                                    Kékszalag Nemzetközi Vitorlásversenyt.</p>
                                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Képek
                                 </a></p>
