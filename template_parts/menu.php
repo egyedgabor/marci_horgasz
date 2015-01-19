@@ -33,7 +33,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right sponsors">
+                <ul class="hidden-xs nav navbar-nav navbar-right sponsors">
                     <li>
                         <a href="http://www.horgaszutazas.hu/adventure-fishingrol">
                             <img src="image/adventure.png">

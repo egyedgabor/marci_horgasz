@@ -7,9 +7,22 @@
     background-image: url("../image/bg.jpg");
 }
 
+.hatter_box{
+    background-color: rgba(0,0,0,0) !important;
+    border: 0px;
+}
+
+.hatter_box_header{
+    background-color: rgba(0,0,0,0) !important;
+    color: white;
+    border-bottom: 1px solid;
+}
+
 .white-color{
     color: white;
 }
+
+
 
 .fb_image {
     border: solid;
@@ -45,6 +58,10 @@
 
 .main {
     margin-top: 60px;
+}
+
+.foot {
+    margin-bottom: 30px;
 }
 
 .box {

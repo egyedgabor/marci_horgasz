@@ -7,8 +7,8 @@
     <link rel="icon" href="image/icon.png">
 
     <title>Héjja Márton Kristóf</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     
 </head>
