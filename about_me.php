@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div>
-                       <img class="marketing-image col-xs-2" src="image/pl.jpg"> 
+                       <img class="col-xs-2" src="image/pl.jpg" style="margin-bottom: 10px;">
                     </div>
                 </div>
             </div>

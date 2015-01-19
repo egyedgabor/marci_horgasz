@@ -1,27 +1,29 @@
-<html >
+<html>
     <?php include "template_parts/header.php" ?>
     <body class="hatter">
         <?php include "template_parts/menu.php" ?>
         <div class="container marketing">
-            <div class="row " style="color: white;">
+            <div class="row white-color">
                 <div class="col-lg-4">
                     <a href="about_me.php">
                         <img class="img-circle rotation marketing_image" src="image/:D.jpg">
                     </a>
-                    <div class="">
+                    <div>
                         <h2>Rólam</h2>
-                        <p >Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen 
+                        <p>
+                            Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen
                             készítünk vonzó ajánlatokat a világ legjobb horgászhelyeire. 2009-ben 
                             több új úticélunk szervezésére kizárólagos jogot szereztünk nem csak 
-                            Magyarországon, hanem a közép-európai régióban is.</p>
+                            Magyarországon, hanem a közép-európai régióban is.
+                        </p>
                     </div>    
                     <a class="btn btn-default">
-                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true">
-                        </span> Tovább
+                        <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+                        <span>Tovább</span>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#about">
+                    <a href="#">
                         <img class="img-circle rotation marketing_image" src="image/adventure.png">
                     </a>
                     <h2>Adventure Fishing</h2>
@@ -30,12 +32,12 @@
                        szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
                        melyben egyben örömét is leli?</p>
                     <a class="btn btn-default">
-                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> 
-                        Tovább
+                        <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+                        <span>Tovább</span>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#about">
+                    <a href="#">
                         <img class="img-circle rotation marketing_image" src="image/house.jpg">
                     </a>
                     <h2>Szállások</h2>
@@ -43,12 +45,12 @@
                        kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
                        Nagyszerű horgászati lehetőségek vannak Balatonszárszón.</p>
                     <a class="btn btn-default">
-                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
-                              Tovább
+                        <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+                        <span>Tovább</span>
                     </a>
                 </div>
             </div>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -59,12 +61,17 @@
                         <img src="image/3.jpg" alt="First slide">
                         <div class="container" >
                             <div class="carousel-caption"  >
-                                <h1>Balaton.</h1>
-                                <p>A Balaton (becenevén „a magyar tenger”; latinul Lacus Pelso,
+                                <h1>Balaton</h1>
+                                <p>
+                                    A Balaton (becenevén „a magyar tenger”; latinul Lacus Pelso,
                                     németül Plattensee)[1] Közép-Európa legnagyobb tava, 
-                                    Magyarország vízrajzának meghatározó eleme. </p>
-                                <p><a class="btn btn-lg btn-primary" href="#" 
-                                      role="button">Jelentkez MOST</a></p>
+                                    Magyarország vízrajzának meghatározó eleme.
+                                </p>
+                                <p>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">
+                                        Jelentkez MOST
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -73,12 +80,17 @@
                         <div class="container">
                             <div class="carousel-caption" >
                                 <h1>Balaton</h1>
-                                <p> Déli partjánál medre sekélyebb. Északi oldalán 
-                                   találhatóa badacsonyi borvidék és a Tapolcai-medence, 
-                                   jellegzetes vulkáni tanúhegyeivel. A tó egyes részein halászat 
-                                   folyik.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" 
-                                      role="button">Tudj meg többet</a></p>
+                                <p>
+                                    Déli partjánál medre sekélyebb. Északi oldalán
+                                    találhatóa badacsonyi borvidék és a Tapolcai-medence,
+                                    jellegzetes vulkáni tanúhegyeivel. A tó egyes részein halászat
+                                    folyik.
+                                </p>
+                                <p>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">
+                                        Tudj meg többet
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>

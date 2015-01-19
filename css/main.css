@@ -5,9 +5,11 @@
 
 .hatter {
     background-image: url("../image/bg.jpg");
-    
 }
 
+.white-color{
+    color: white;
+}
 
 .fb_image {
     border: solid;
@@ -50,13 +52,6 @@
     color: white;
     padding: 10px; 
 }
-
-.marketing-image {
-    width: 10%;
-    height: 100%;
-    float: right;
-}
-
 
 .rotation:hover {
   -webkit-animation: rotation 2s linear infinite;
