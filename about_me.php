@@ -60,7 +60,9 @@
                         </div>
                     </div>
                     <div>
-                       <img class="col-xs-2" src="image/pl.jpg" style="margin-bottom: 10px;">
+                        <a href="http://horgaszutazas.hu/lake-balaton"><img class="col-xs-2" 
+                           src="image/banner.jpg" style="margin-bottom: 10px;">
+                        </a>
                     </div>
                 </div>
             </div>
