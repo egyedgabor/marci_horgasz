@@ -10,5 +10,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    
+    <link href="css/profile_box.css" rel="stylesheet">
+    <link href="css/reviews.css" rel="stylesheet">
 </head>

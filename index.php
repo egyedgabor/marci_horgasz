@@ -17,13 +17,13 @@
                             Magyarországon, hanem a közép-európai régióban is.
                         </p>
                     </div>    
-                    <a class="btn btn-default">
+                    <a href="about_me.php" class="btn btn-default">
                         <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
                         <span>Tovább</span>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#">
+                    <a href="http://horgaszutazas.hu/lake-balaton">
                         <img class="img-circle rotation marketing_image" src="image/adventure.png">
                     </a>
                     <h2>Adventure Fishing</h2>
@@ -31,20 +31,20 @@
                        vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
                        szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
                        melyben egyben örömét is leli?</p>
-                    <a class="btn btn-default">
+                    <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-default">
                         <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
                         <span>Tovább</span>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#">
+                    <a href="prices.php">
                         <img class="img-circle rotation marketing_image" src="image/house.jpg">
                     </a>
-                    <h2>Szállások</h2>
+                    <h2>Akciók</h2>
                     <p>Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
                        kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
                        Nagyszerű horgászati lehetőségek vannak Balatonszárszón.</p>
-                    <a class="btn btn-default">
+                    <a href="prices.php" class="btn btn-default">
                         <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
                         <span>Tovább</span>
                     </a>
@@ -134,7 +134,7 @@
                                     folyóit kedveli.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="image/fish 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
+                    <img class="featurette-image index-image img-responsive" src="image/fish 1.jpg">
                 </div>
             </div>
 
@@ -142,7 +142,7 @@
 
             <div class="row featurette" style="color:white;">
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="image/boat 2.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
+                    <img class="featurette-image index-image img-responsive" src="image/boat 2.jpg">
                 </div>
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
@@ -172,7 +172,7 @@
                                     rendezett , fásított , fűvel borított.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="image/house 1.jpg" style="border-width: 5px; border-style:solid; border-color: #330000; ">
+                    <img class="featurette-image index-image img-responsive" src="image/house 1.jpg">
                 </div>
             </div>
             <hr class="featurette-divider">

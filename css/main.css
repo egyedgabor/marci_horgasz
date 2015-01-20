@@ -22,7 +22,23 @@
     color: white;
 }
 
+.index-image {
+    border-width: 5px; 
+    border-style:solid; 
+    border-color: #330000; 
+}
 
+.image-size {
+    height: 420px; 
+    border-width: 5px; 
+    border-style:solid; 
+    border-color: #330000; 
+}
+
+.banner-size {
+    width: 1140px;
+    height: 200px;
+}
 
 .fb_image {
     border: solid;
@@ -31,6 +47,19 @@
     margin: 10px;
     width: 30px;
     height: 30px;
+}
+
+.black-color {
+    color: black;
+}
+
+.text-footer-image {
+    color: black;
+    margin-right: 40px;
+}
+
+.float_right {
+    float: right;
 }
 
 .dropdown-menu > li > a {
@@ -49,11 +78,11 @@
 .profile {
     border-radius: 300px;
     border-style: solid;
-    border-color: #330000;
-    border-width: 5px;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+    border-color: rgba(0,0,0,0);
+    border-width: 1px;
+    width: 65px;
+    height: 65px;
+   
 }
 
 .main {
@@ -68,6 +97,10 @@
     background: rgba(0,0,0,0.5);
     color: white;
     padding: 10px; 
+}
+
+.box-size {
+    height: 400px;
 }
 
 .rotation:hover {

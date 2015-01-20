@@ -21,9 +21,9 @@
                     </li>
                     <li class="menu-item"><a href="about_me.php">Rólam</a> </li>
                     <li class="menu-item"><a href="contact.php">Kapcsolat</a></li> 
-                    <li class="menu-item"><a href="prices.php">Árak</a></li>                            
+                    <li class="menu-item"><a href="prices.php">Akciós ajánlatok</a></li>                            
                     <li class="menu-item dropdown">
-                        <a  href="media.php" class="dropdown-toggle " data-toggle="dropdown" 
+                        <a  href="#" class="dropdown-toggle " data-toggle="dropdown" 
                             role="button" aria-expanded="false">Média </a>
                         <ul class="dropdown-menu navbar-inverse" role="menu">
                             <li><a href="pictures.php">Képek</a></li>
