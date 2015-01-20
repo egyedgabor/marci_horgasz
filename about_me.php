@@ -9,7 +9,6 @@
 <div class="container " style="margin-top: 20px; margin-bottom: 20px;">
     <div class="row main panel profile-box">
         <div class="col-md-4 bg_blur ">
-            <a href="https://www.facebook.com/marton.hejja#" class="follow_btn hidden-xs">Follow</a>
         </div>
         <div class="col-md-8 col-xs-12 ">
            <img src="image/marci.jpg" class="img-thumbnail picture hidden-xs" />
@@ -26,8 +25,8 @@
     <div class="row nav">    
         <div class="col-md-4"></div>
         <div class="col-md-8 col-xs-12" style="margin: 0px;padding: 0px;">
-            <div class="col-md-4 col-xs-4 well"><i class="glyphicon glyphicon-comment"></i> 16</div>
-            <div class="col-md-4 col-xs-4 well"><i class="glyphicon glyphicon-share"></i> 14</div>
+            <div class="col-md-4 col-xs-4 "></div>
+            <div class="col-md-4 col-xs-4 "></div>
             <div class="col-md-4 col-xs-4 well"><i class="glyphicon glyphicon-thumbs-up"></i> 26</div>
             </div>
             </div>
@@ -35,18 +34,15 @@
             <div class="container">
     <div class="row">
 
-    <div class="container ">
-        <img class="banner-size" src="image/haldorado.jpg">
-    </div >
         <h2>Értékelések, Élménybeszámolók</h2>
     </div>
 </div>
-<div class="carousel-reviews broun-block">
-    <div class="container">
+<div class="carousel-reviewsbroun-block">
+    <div class="container ">
         <div class="row">
-            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+            <div id="carousel-reviews foot1 " class="carousel slide" data-ride="carousel">
             
-                <div class="carousel-inner">
+                <div class=" carousel-inner">
                     <div class="item active">
                         <div class="col-md-4 col-sm-6">
                             <div class="block-text rel zmin">

@@ -90,7 +90,11 @@
 }
 
 .foot {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
+}
+
+.foot1 {
+    margin-bottom: 90px !important;
 }
 
 .box {
