@@ -22,15 +22,6 @@
         </div>
     </div>   
     
-    <div class="row nav">    
-        <div class="col-md-4"></div>
-        <div class="col-md-8 col-xs-12" style="margin: 0px;padding: 0px;">
-            <div class="col-md-4 col-xs-4 "></div>
-            <div class="col-md-4 col-xs-4 "></div>
-            <div class="col-md-4 col-xs-4 well"><i class="glyphicon glyphicon-thumbs-up"></i> 26</div>
-            </div>
-            </div>
-            </div>
 
     <div class="container">
         <h2>Értékelések, Élménybeszámolók</h2>
@@ -210,6 +201,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
         <?php include "template_parts/footer.php" ?>     
         <?php include "template_parts/js.php" ?>  

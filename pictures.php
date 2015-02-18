@@ -3,33 +3,90 @@
     <?php include "template_parts/header.php" ?>
     <body class="hatter">
     <?php include "template_parts/menu.php" ?>
-        <div class="row main">
+       <div class="container main">
+       <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Képek</h1>   
-                <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="image/house 1.jpg" data-image-id="" data-toggle="modal" 
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a class="galery thumbnail" href="image/house 1.jpg" data-image-id="" data-toggle="modal" 
                     data-title="Balatonszárszói apartman" data-caption="A központi strandon található sekélyvizű gyermeköböl egyedülálló a déli parton, kifejezetten kisgyermekes családoknak ajánlott. Az itt lévő strandok vize sekély, homokos, nem iszapos partja rendezett , fásított , fűvel borított." 
                     data-image="image/house 1.jpg" 
                     data-target="#image-gallery">
-                        <img class="img-responsive image-size" src="image/house 1.jpg" alt="Short alt text">
+                        <img class="img-responsive" src="image/house 1.jpg" alt="Short alt text">
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                    <a  class="thumbnail" href="image/fish_3.jpg" data-image-id="" data-toggle="modal" 
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish_3.jpg" data-image-id="" data-toggle="modal" 
                         data-title="Keszeg Buzogány" 
                         data-caption="Itt látható a keszeg buzogány :D" 
                         data-image="image/fish_3.jpg" data-target="#image-gallery">
-                        <img class="img-responsive image-size" src="image/fish_3.jpg" alt="A alt text">
+                        <img class="img-responsive" src="image/fish_3.jpg" alt="A alt text">
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                    <a  class="thumbnail" href="image/fish 1.jpg" data-image-id="" data-toggle="modal" 
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish 1.jpg" data-image-id="" data-toggle="modal" 
                         data-title="Héjjjjjja" data-caption=" Na Mizu?" 
                         data-image="image/fish 1.jpg" data-target="#image-gallery">
-                        <img class="img-responsive image-size" src="image/fish 1.jpg" alt="Another alt text">
+                        <img class="img-responsive" src="image/fish 1.jpg" alt="Another alt text">
                     </a>
                 </div>
-            </div>
+                  <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a class="galery thumbnail" href="image/house 1.jpg" data-image-id="" data-toggle="modal" 
+                    data-title="Balatonszárszói apartman" data-caption="A központi strandon található sekélyvizű gyermeköböl egyedülálló a déli parton, kifejezetten kisgyermekes családoknak ajánlott. Az itt lévő strandok vize sekély, homokos, nem iszapos partja rendezett , fásított , fűvel borított." 
+                    data-image="image/house 1.jpg" 
+                    data-target="#image-gallery">
+                        <img class="img-responsive" src="image/house 1.jpg" alt="Short alt text">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish_3.jpg" data-image-id="" data-toggle="modal" 
+                        data-title="Keszeg Buzogány" 
+                        data-caption="Itt látható a keszeg buzogány :D" 
+                        data-image="image/fish_3.jpg" data-target="#image-gallery">
+                        <img class="img-responsive" src="image/fish_3.jpg" alt="A alt text">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish 1.jpg" data-image-id="" data-toggle="modal" 
+                        data-title="Héjjjjjja" data-caption=" Na Mizu?" 
+                        data-image="image/fish 1.jpg" data-target="#image-gallery">
+                        <img class="img-responsive" src="image/fish 1.jpg" alt="Another alt text">
+                    </a>
+                </div>  <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a class="galery thumbnail" href="image/house 1.jpg" data-image-id="" data-toggle="modal" 
+                    data-title="Balatonszárszói apartman" data-caption="A központi strandon található sekélyvizű gyermeköböl egyedülálló a déli parton, kifejezetten kisgyermekes családoknak ajánlott. Az itt lévő strandok vize sekély, homokos, nem iszapos partja rendezett , fásított , fűvel borított." 
+                    data-image="image/house 1.jpg" 
+                    data-target="#image-gallery">
+                        <img class="img-responsive" src="image/house 1.jpg" alt="Short alt text">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish_3.jpg" data-image-id="" data-toggle="modal" 
+                        data-title="Keszeg Buzogány" 
+                        data-caption="Itt látható a keszeg buzogány :D" 
+                        data-image="image/fish_3.jpg" data-target="#image-gallery">
+                        <img class="img-responsive" src="image/fish_3.jpg" alt="A alt text">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a  class="galery thumbnail" href="image/fish 1.jpg" data-image-id="" data-toggle="modal" 
+                        data-title="Héjjjjjja" data-caption=" Na Mizu?" 
+                        data-image="image/fish 1.jpg" data-target="#image-gallery">
+                        <img class="img-responsive" src="image/fish 1.jpg" alt="Another alt text">
+                    </a>
+                </div>
+
+
+           
+             <div class="thumb col-md-3 col-sm-4 col-xs-6">
+        <a  class="galery thumbnail" href="image/house 1.jpg" data-image-id="" data-toggle="modal"
+        data-title="Balatonszárszói apartman" 
+        data-caption="A központi strandon található sekélyvizű gyermeköböl egyedülálló a déli parton,
+         kifejezetten kisgyermekes családoknak ajánlott. Az itt lévő strandok vize sekély, homokos, 
+         nem iszapos partja rendezett , fásított , fűvel borított." 
+        data-image="image/house 1.jpg" 
+        data-target="#image-gallery"> 
+        <img class="img-responsive" src="image/house 1.jpg" /></a></div>
             <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" 
                  aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -63,6 +120,7 @@
                 </div>
             </div>
         </div>
+        </div></div>
         <?php include "template_parts/footer.php" ?>
         <?php include "template_parts/js.php" ?>  
     </body>
