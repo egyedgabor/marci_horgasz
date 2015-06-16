@@ -17,7 +17,7 @@
                             Magyarországon, hanem a közép-európai régióban is.
                         </p>
                     </div>    
-                    <a href="about_me.php" class="btn btn-default">
+                    <a href="about_me.php" class="btn btn-primary">
                         <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
                         <span>Tovább</span>
                     </a>
