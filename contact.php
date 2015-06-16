@@ -4,7 +4,6 @@
     <body class="hatter main">
         <?php include "template_parts/menu.php" ?>
         <div class="container-fluid">
-            <?php include "template_parts/menu.php" ?>
             <div class="container">
                 <div class="row white-color">
                     <div class="col-md-5">
