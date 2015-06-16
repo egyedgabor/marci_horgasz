@@ -1,4 +1,4 @@
-<footer class="site-footer" style="background: black; opacity:0.8;">
+<footer class="footer" style="background: black; opacity:0.8;">
     <div class="container-fluid">
         <div>
             <p style="color:#fff">Oldalt Készítete: Egyed Gábor </p>
