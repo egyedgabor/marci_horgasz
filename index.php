@@ -5,12 +5,12 @@
 <div class="row white-color">
 
   <!-- 1. block -->
-  <div class="col-lg-4">
+  <div class="col-lg-4 marketing-block">
     <a href="about_me.php">
-      <img class="img-circle rotation marketing_image" src="image/:D.jpg">
+      <img class="img-circle rotation marketing_image" src="image/fisherman.jpg">
     </a>
-    <div>
-      <h2>Rólam</h2>
+    <h2 class="marketing_title">Rólam</h2>
+    <div class="marketing_text">
       <p>
           Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen
           készítünk vonzó ajánlatokat a világ legjobb horgászhelyeire. 2009-ben 
@@ -19,18 +19,18 @@
       </p>
     </div>
     <a href="about_me.php" class="btn btn-default">
-      <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+      <i class="glyphicon glyphicon-share-alt"></i>
       <span>Tovább</span>
     </a>
   </div>
 
   <!-- 2. block -->
-  <div class="col-lg-4">
+  <div class="col-lg-4 marketing-block">
     <a href="http://horgaszutazas.hu/lake-balaton">
       <img class="img-circle rotation marketing_image" src="image/adventure.png">
     </a>
-    <div>
-      <h2>Adventure Fishing</h2>
+    <h2 class="marketing_title">Adventure Fishing</h2>
+    <div class="marketing_text">
       <p>
          Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
          vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
@@ -38,26 +38,26 @@
          melyben egyben örömét is leli?
       </p>
       <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-default">
-        <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+        <i class="glyphicon glyphicon-share-alt" ></i>
         <span>Tovább</span>
       </a>
     </div>
   </div>
 
   <!-- 3. block -->
-  <div class="col-lg-4">
+  <div class="col-lg-4 marketing-block" >
     <a href="prices.php">
       <img class="img-circle rotation marketing_image" src="image/house.jpg">
     </a>
-    <div>
-      <h2>Akciók</h2>
+    <h2 class="marketing_title">Akciók</h2>
+    <div class="marketing_text">
       <p>
         Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
         kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
         Nagyszerű horgászati lehetőségek vannak Balatonszárszón.
       </p>
       <a href="prices.php" class="btn btn-default">
-        <i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>
+        <i class="glyphicon glyphicon-share-alt"></i>
         <span>Tovább</span>
       </a>
     </div>

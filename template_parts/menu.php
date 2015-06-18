@@ -2,6 +2,10 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
+                <a class="navbar-brand" href="https://www.facebook.com/marton.hejja?fref=ts" target="_blank">
+                  <img alt="Brand" class="fb_image" src="image/face.jpg">
+                  <span>Héjja Márton Kristóf</span>
+                </a>
                 <button type="button" class="navbar-toggle collapsed" 
                         data-toggle="collapse" data-target="#navbar" aria-expanded="false" 
                         aria-controls="navbar">
@@ -10,9 +14,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://www.facebook.com/marton.hejja?fref=ts">
-                    <img class= "kep fb_image navbar-left nav "src="image/face.jpg"></a>
-                <a class="navbar-brand" href="index.php">Héjja Márton Kristóf</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav menu">
