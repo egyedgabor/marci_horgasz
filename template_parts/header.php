@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="image/icon.png">
+    <link rel="icon" href="image/favicon.png">
 
     <title>Héjja Márton Kristóf</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">    
