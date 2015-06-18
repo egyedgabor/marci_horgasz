@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="image/favicon.png">
-
-    <title>Héjja Márton Kristóf</title>
+    <link rel="icon" href="image/favicon.png">    
+    <title>
+      <?php startblock('title') ?>
+        HM-Fishing
+      <?php endblock() ?>
+    </title>   
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/main.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
@@ -19,7 +22,6 @@
     <?php include "template_parts/menu.php" ?>
     <div class="container main-block">
       <?php startblock('main') ?>
-        CICA
       <?php endblock() ?>
     </div>
     <?php include "template_parts/footer.php" ?>

@@ -1,5 +1,9 @@
 <?php include 'template_parts/base.php' ?>
 
+<?php startblock('title') ?> 
+  <?php superblock() ?> - Index
+<?php endblock() ?>
+
 <?php startblock('main') ?>
 <!-- START Marketing Block-->
 <div class="row white-color">
