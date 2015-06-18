@@ -1,9 +1,14 @@
 .marketing_image {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
+
+div.main-block {
+  padding-bottom: 30px;
+}
+
 .galery_image {
-    height: 175px;
+  height: 175px;
 }
 
 .hatter {
@@ -25,10 +30,10 @@
     color: white;
 }
 
-.index-image {
-    border-width: 5px; 
-    border-style:solid; 
-    border-color: #330000; 
+.brown-border {
+  border-width: 5px;
+  border-style:solid;
+  border-color: #330000;
 }
 
 .site-footer {
@@ -213,13 +218,11 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 60px;
 }
