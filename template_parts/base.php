@@ -19,7 +19,7 @@
     <link href="css/profile_box.css" rel="stylesheet">
     <link href="css/reviews.css" rel="stylesheet">
   </head>
-  <body class="hatter">
+  <body class="hatter" data-runMode="<?php echo $ENV['RUN_MODE'] ?>">
     <?php include "template_parts/menu.php" ?>
     <div class="container main-block">
       <?php startblock('main') ?>
