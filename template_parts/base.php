@@ -1,4 +1,5 @@
 <?php require_once "components/phpti_0.9/ti.php" ?>
+<?php require_once "env.php" ?>
 <html>
   <head>
     <meta charset="utf-8">
