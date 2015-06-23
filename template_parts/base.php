@@ -102,13 +102,30 @@
     </footer>
     <!-- footer end-->
 
-    <!-- JS-->
+    <!-- JS 3th party -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/pictures.js"></script>
-    <script src="js/holder.js"></script>
-    <!-- JS end-->
+    <!-- JS 3th party end-->
 
+    <!-- JS EXTRA 3th party -->
+    <?php startblock('extra_3th_party') ?>
+    <?php endblock() ?>
+    <!-- JS EXTRA 3th party end -->
+
+    <script type="text/javascript">
+      $(function () {
+        //active menu
+        $(".nav li a").each(function() {
+          if (this.href === window.location.href) $(this).parent().addClass("active");
+        });
+      });
+    </script>
+
+    <!-- My JS -->
+    <script src="js/main.js"> </script>
+    <script src="js/pictures.js"></script>
+    <!-- My JS END -->
+    <?php startblock('custom_js') ?>
+    <?php endblock() ?>
   </body>
 </html>
