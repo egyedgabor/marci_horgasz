@@ -7,6 +7,7 @@
 <?php startblock('main') ?>
 <!-- START Marketing Block-->
 <div class="row white-color">
+</div>
   <!-- 1. block -->
   <div class="col-lg-4 marketing-block">
     <a href="about_me.php">

@@ -24,7 +24,7 @@
   <!-- header end-->
 
   <!-- menu-->
-  <body class="hatter">
+  <body class="hatter" data-runMode="<?php echo $ENV['RUN_MODE'] ?>">
     <div class="container-fluid ">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -85,10 +85,12 @@
     </div>
     <!-- menu end-->
 
+    <!-- main block-->
     <div class="container main-block">
       <?php startblock('main') ?>
       <?php endblock() ?>
     </div>
+     <!-- main block end-->
 
     <!-- footer-->
     <footer class="site-footer footer">
