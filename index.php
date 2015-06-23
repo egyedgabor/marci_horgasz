@@ -70,7 +70,7 @@
 <!-- END Marketing Block-->
 
 <!-- START Carousel -->
-<div id="myCarousel" class="carousel slide brown-border" data-ride="carousel">
+<div id="myCarousel" class="carousel brown-border" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -209,4 +209,12 @@
   </div>
 </div>
 <!-- END 3. Detailed description -->
+<?php endblock() ?>
+
+<?php startblock('custom_js') ?>
+  <script type="text/javascript">
+    $(function() {
+      $('#myCarousel').carousel();
+    });
+  </script>
 <?php endblock() ?>

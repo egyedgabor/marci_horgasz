@@ -275,3 +275,7 @@
     </div>
   </div>
 <?php endblock() ?>
+
+<?php startblock('custom_js') ?>
+  <script src="js/holder.js"></script>
+<?php endblock() ?>
