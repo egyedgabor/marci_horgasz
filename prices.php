@@ -1,8 +1,10 @@
-<?php?>
-<html>
-    <?php include "template_parts/header.php" ?>
-    <body class="hatter">
-        <?php include "template_parts/menu.php" ?>
+<?php include 'template_parts/base.php' ?>
+
+<?php startblock('title') ?>
+  <?php superblock() ?> - Index
+<?php endblock() ?>
+
+<?php startblock('main') ?>
        <div class="container main">
         <div id="main_area">
                 <!-- Slider -->
@@ -118,7 +120,4 @@
         </div>
 </div>
         
-        <?php include "template_parts/footer.php" ?>     
-        <?php include "template_parts/js.php" ?>  
-    </body>
-</html>
+<?php endblock() ?>
