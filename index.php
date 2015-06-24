@@ -6,14 +6,15 @@
 
 <?php startblock('main') ?>
 <!-- START Marketing Block-->
-<div class="row white-color">
-</div>
+<div class="row">
   <!-- 1. block -->
   <div class="col-lg-4 marketing-block">
     <a href="about_me.php">
       <img class="img-circle rotation marketing_image" src="image/fisherman.jpg">
     </a>
-    <h2 class="marketing_title">Rólam</h2>
+    <div>
+      <h2 class="marketing_title">Rólam</h2>
+    </div>
     <div class="marketing_text">
       <p>
           Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen
@@ -22,10 +23,12 @@
           Magyarországon, hanem a közép-európai régióban is.
       </p>
     </div>
-    <a href="about_me.php" class="btn btn-default">
-      <i class="glyphicon glyphicon-share-alt"></i>
-      <span>Tovább</span>
-    </a>
+    <div>
+      <a href="about_me.php" class="btn btn-default">
+        <i class="glyphicon glyphicon-share-alt"></i>
+        <span>Tovább</span>
+      </a>
+    </div>
   </div>
 
   <!-- 2. block -->
@@ -33,7 +36,9 @@
     <a href="http://horgaszutazas.hu/lake-balaton">
       <img class="img-circle rotation marketing_image" src="image/adventure.png">
     </a>
-    <h2 class="marketing_title">Adventure Fishing</h2>
+    <div>
+      <h2 class="marketing_title">Adventure Fishing</h2>
+    </div>
     <div class="marketing_text">
       <p>
          Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
@@ -41,10 +46,12 @@
          szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
          melyben egyben örömét is leli?
       </p>
-      <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-default">
-        <i class="glyphicon glyphicon-share-alt" ></i>
-        <span>Tovább</span>
-      </a>
+      <div>
+        <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-default">
+          <i class="glyphicon glyphicon-share-alt" ></i>
+          <span>Tovább</span>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -53,17 +60,21 @@
     <a href="prices.php">
       <img class="img-circle rotation marketing_image" src="image/house.jpg">
     </a>
-    <h2 class="marketing_title">Akciók</h2>
+    <div>
+      <h2 class="marketing_title">Akciók</h2>
+    </div>
     <div class="marketing_text">
       <p>
         Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
         kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
         Nagyszerű horgászati lehetőségek vannak Balatonszárszón.
       </p>
-      <a href="prices.php" class="btn btn-default">
-        <i class="glyphicon glyphicon-share-alt"></i>
-        <span>Tovább</span>
-      </a>
+      <div>
+        <a href="prices.php" class="btn btn-default">
+          <i class="glyphicon glyphicon-share-alt"></i>
+          <span>Tovább</span>
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -95,6 +106,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- 2. picture -->
     <div class="item">
