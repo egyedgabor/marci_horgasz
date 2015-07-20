@@ -2,15 +2,11 @@ var UglifyJS = require("uglify-js");
 var fs = require('fs');
 var $ = require('jquery')(require('node-jsdom').jsdom().parentWindow);
 
-var fileList = [];
 $(fs.readdirSync('../js')).each(function() {
-  fileList.push('../js/' + this);
+  if (this.indexOf('min.js') === -1) {
+      fs.writeFileSync(
+      '../js/' + this.substring(0, this.length - 3) + '.min.js',
+      UglifyJS.minify('../js/' + this).code
+    );
+  }
 });
-
-console.log(fileList);
-
-
-fs.writeFileSync(
-  '../js/build.min.js',
-  UglifyJS.minify(fileList).code
-);
