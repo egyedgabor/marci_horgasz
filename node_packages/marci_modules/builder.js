@@ -5,7 +5,7 @@ var $ = require('jquery')(require('node-jsdom').jsdom().parentWindow);
 $(fs.readdirSync('../js')).each(function() {
   if (this.indexOf('min.js') === -1) {
       fs.writeFileSync(
-      '../js/' + this.substring(0, this.length - 3) + '.min.js',
+      '../js_min/' + this.substring(0, this.length - 3) + '.min.js',
       UglifyJS.minify('../js/' + this).code
     );
   }
