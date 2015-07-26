@@ -277,5 +277,10 @@
 <?php endblock() ?>
 
 <?php startblock('custom_js') ?>
-  <script src="js/holder.js"></script>
+    <?php if ($ENV["RUN_MODE"] == "DEV") { ?>
+      <script src="js/holder.js"></script>
+    <?php } elseif ($ENV["RUN_MODE"] == "LIVE") { ?>
+      <script src="js_min/holder.min.js"></script>
+    <?php } ?>  
+  
 <?php endblock() ?>

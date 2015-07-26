@@ -162,8 +162,14 @@
     </script>
 
     <!-- My JS -->
-    <script src="js/main.js"> </script>
-    <script src="js/pictures.js"></script>
+    <?php if ($ENV["RUN_MODE"] == "DEV") { ?>
+      <script src="js/main.js"></script>
+      <script src="js/pictures.js"></script>
+    <?php } elseif ($ENV["RUN_MODE"] == "LIVE") { ?>
+      <script src="js_min/main.min.js"></script>
+      <script src="js_min/pictures.min.js"></script>
+    <?php } ?>  
+    
     <!-- My JS END -->
     <?php startblock('custom_js') ?>
     <?php endblock() ?>
