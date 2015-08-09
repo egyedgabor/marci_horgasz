@@ -116,48 +116,6 @@
         $(".nav li a").each(function() {
           if (this.href === window.location.href) $(this).parent().addClass("active");
         });
-
-        //menu (show and hide)
-        var animationIsRuning = false;
-
-
-        function showMenu () {
-          if (animationIsRuning === false) {
-            animationIsRuning = true;
-            $('.navbar').removeClass('shrink');
-            $('.menu-item, .sponsors, .navbar-header').show({
-              complete: function () {
-                if (!$(this).hasClass('active')) animationIsRuning = false;
-              },
-              duration: 1000
-            });
-          }
-        }
-
-        function hideMenu () {
-          if (animationIsRuning === false) {
-            animationIsRuning = true;
-            $('.navbar').addClass('shrink');
-            $('.menu-item, .sponsors, .navbar-header').not('.active').hide({
-              complete: function () {
-                animationIsRuning = false;
-              },
-              duration: 1000
-            });
-          } 
-        }
-
-        $(window).scroll(function() {
-          $(document).scrollTop() > 50 ? hideMenu() : showMenu();
-        });
-
-        $('.navbar').mouseenter(function(){
-          if ($(document).scrollTop() > 50) showMenu();
-        });
-
-        $('.navbar').mouseleave(function(){
-          if ($(document).scrollTop() > 50) hideMenu();
-        });
       });
     </script>
 

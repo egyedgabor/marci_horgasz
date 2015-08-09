@@ -24,7 +24,7 @@
       </p>
     </div>
     <div>
-      <a href="about_me.php" class="btn btn-default">
+      <a href="about_me.php" class="btn btn-primary">
         <i class="glyphicon glyphicon-share-alt"></i>
         <span>Tovább</span>
       </a>
@@ -47,7 +47,7 @@
          melyben egyben örömét is leli?
       </p>
       <div>
-        <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-default">
+        <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-primary">
           <i class="glyphicon glyphicon-share-alt" ></i>
           <span>Tovább</span>
         </a>
@@ -70,7 +70,7 @@
         Nagyszerű horgászati lehetőségek vannak Balatonszárszón.
       </p>
       <div>
-        <a href="prices.php" class="btn btn-default">
+        <a href="prices.php" class="btn btn-primary">
           <i class="glyphicon glyphicon-share-alt"></i>
           <span>Tovább</span>
         </a>
