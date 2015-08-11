@@ -9,11 +9,13 @@
   <div class="container " style="margin-top: 20px; margin-bottom: 20px;">
     <div class="row panel profile-box">
     <!-- picture in the box-->
-      <div class="col-md-4 bg_blur "></div>
+      <div class="col-md-4 bg_blur ">
+        <img src="http://placehold.it/470x300">
+      </div>
       <!-- profile picture-->
       <div class="col-md-8 col-xs-12 ">
-        <img src="image/marci.jpg" class="img-thumbnail picture hidden-xs" />
-        <img src="image/marci.jpg" class="img-thumbnail visible-xs picture_mob" />
+        <img src="http://placehold.it/150x150" class="img-thumbnail picture hidden-xs" />
+        <img src="http://placehold.it/80x150" class="img-thumbnail visible-xs picture_mob" />
          <!-- description-->
         <div class="header">
           <h1>Héjja Márton</h1>
@@ -26,6 +28,7 @@
       </div>
       </div>  
     <!-- 1. block end-->
+    <div style="text-align:center"><h1>Ők már kiprobálták</h1></div>
     <div class="simple-template-container"></div>
   </div>
 
