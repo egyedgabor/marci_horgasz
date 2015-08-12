@@ -36,7 +36,7 @@
 
 <?php startblock('custom_js') ?>
   <script src="js/jquery.loadTemplate-1.4.5.min.js"></script>
-  <script src="js/templateloader.js"></script>
+  <script src="js/blog.js"></script>
   </script>
     <?php if ($ENV["RUN_MODE"] == "DEV") { ?>
       <script src="js/holder.js"></script>
