@@ -163,9 +163,13 @@ div.main-block {
 }
 
 .hide-bullets {
-list-style:none;
-margin-left: -40px;
-margin-top:20px;
+  list-style:none;
+  margin-left: -40px;
+  margin-top:20px;
+}
+
+.thumbnail:hover {
+  margin-top: -20px;
 }
 
 .pic1 {
