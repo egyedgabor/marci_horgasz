@@ -6,6 +6,38 @@
 
 <?php startblock('main') ?>
 <!-- News -->
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Hírek</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="http://placehold.it/150x150" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading">Media heading</h3>
+        </div>
+      </div>
+    </div>     
+
+    <div class="col-md-6">
+      <div class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="http://placehold.it/150x150" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading">Media heading</h3>
+        </div>
+      </div>
+    </div>     
+  </div>
+</div>
 
 <!-- START 1. Detailed description -->
 <hr class="featurette-divider">
