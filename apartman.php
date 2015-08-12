@@ -5,7 +5,7 @@
 <?php endblock() ?>
 
 <?php startblock('main') ?>
-  <div><h1>Balatonszárszó</h1></div>
+  <div><h1 style="margin-top: 0px">Balatonszárszó</h1></div>
   <!-- Slider -->
   <div class="row">
     <div class="col-xs-12" id="slider">

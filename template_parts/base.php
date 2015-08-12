@@ -1,7 +1,6 @@
 <?php require_once "components/phpti_0.9/ti.php" ?>
 <?php require_once "env.php" ?>
 <html>
-
 <!-- header-->
   <head>
     <meta charset="utf-8">
@@ -25,21 +24,13 @@
 
   <!-- menu-->
   <body class="hatter" data-runMode="<?php echo $ENV['RUN_MODE'] ?>">
-    <div class="container-fluid ">
+    <div class="container-fluid">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <a class="navbar-brand" href="https://www.facebook.com/marton.hejja?fref=ts" target="_blank">
             <img alt="Brand" class="fb_image" src="image/face.jpg">
             <span>Héjja Márton Kristóf</span>
           </a>
-          <button type="button" class="navbar-toggle collapsed"
-                  data-toggle="collapse" data-target="#navbar" aria-expanded="false" 
-                  aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav menu">
