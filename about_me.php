@@ -10,7 +10,7 @@
     <div class="row panel profile-box">
     <!-- picture in the box-->
       <div class="col-md-4 bg_blur ">
-        <img src="http://placehold.it/470x300">
+        <img src="http://placehold.it/400x300">
       </div>
       <!-- profile picture-->
       <div class="col-md-8 col-xs-12 ">
@@ -28,7 +28,7 @@
       </div>
       </div>  
     <!-- 1. block end-->
-    <div style="text-align:center"><h1>Ők már kiprobálták</h1></div>
+    <div style="text-align:center"><h1>Horgászatok</h1></div>
     <div class="simple-template-container"></div>
   </div>
 

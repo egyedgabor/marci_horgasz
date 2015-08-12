@@ -5,81 +5,73 @@
 <?php endblock() ?>
 
 <?php startblock('main') ?>
-<!-- START Marketing Block-->
-<div class="row">
-  <!-- 1. block -->
-  <div class="col-lg-4 marketing-block">
-    <a href="about_me.php">
-      <img class="img-circle rotation marketing_image" src="image/fisherman.jpg">
-    </a>
-    <div>
-      <h2 class="marketing_title">Rólam</h2>
-    </div>
-    <div class="marketing_text">
-      <p>
-          Természetesen kínálatunkat folyamatosan bővítjük, és rendszeresen
-          készítünk vonzó ajánlatokat a világ legjobb horgászhelyeire. 2009-ben 
-          több új úticélunk szervezésére kizárólagos jogot szereztünk nem csak 
-          Magyarországon, hanem a közép-európai régióban is.
+<!-- News -->
+<div class="jimbutron"></div>
+<!-- START 1. Detailed description -->
+<hr class="featurette-divider">
+<div class="row featurette" style="color:white;">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" >A Balatoni potyka!</h2>
+      <p class="lead">
+        a sugarasúszójú csontos halak közé tartozó típusfaj,
+        a pontyalakúak rendjének és a pontyfélék családjának névadója.
+        Palearktikus elterjedésű halfaj. Eredeti őshazája Ázsia,
+        valamint Európa keleti fele (Kelet-Európa és a Duna-medence),
+        de tenyésztési céllal máshova is betelepítették, így ma már
+        gyakorlatilag minden földrész édesvizeiben megtalálható.
+        A mérsékelt égövi alföldi vidékek tavait és lassú vizű
+        folyóit kedveli.
       </p>
-    </div>
-    <div>
-      <a href="about_me.php" class="btn btn-primary">
-        <i class="glyphicon glyphicon-share-alt"></i>
-        <span>Tovább</span>
-      </a>
-    </div>
   </div>
-
-  <!-- 2. block -->
-  <div class="col-lg-4 marketing-block">
-    <a href="http://horgaszutazas.hu/lake-balaton">
-      <img class="img-circle rotation marketing_image" src="image/adventure.png">
-    </a>
-    <div>
-      <h2 class="marketing_title">Adventure Fishing</h2>
-    </div>
-    <div class="marketing_text">
-      <p>
-         Az Adventure Fishing utazási iroda, egy baráti kapcsolatokból kinövő 
-         vállalkozás, melyet a közös hobbi szeretete tart össze. Mindannyian
-         szeretünk utazni és horgászni, és ki ne szeretne olyan dologgal foglalkozni,
-         melyben egyben örömét is leli?
-      </p>
-      <div>
-        <a href="http://horgaszutazas.hu/lake-balaton" class="btn btn-primary">
-          <i class="glyphicon glyphicon-share-alt" ></i>
-          <span>Tovább</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 3. block -->
-  <div class="col-lg-4 marketing-block" >
-    <a href="prices.php">
-      <img class="img-circle rotation marketing_image" src="image/house.jpg">
-    </a>
-    <div>
-      <h2 class="marketing_title">Akciók</h2>
-    </div>
-    <div class="marketing_text">
-      <p>
-        Szeretettel várjuk Öntés és kedves családját! Neves balatoni borászok borait 
-        kostólgathatják, vásárolhatják meg itt a környéken lévő összes borászatban.
-        Nagyszerű horgászati lehetőségek vannak Balatonszárszón.
-      </p>
-      <div>
-        <a href="prices.php" class="btn btn-primary">
-          <i class="glyphicon glyphicon-share-alt"></i>
-          <span>Tovább</span>
-        </a>
-      </div>
-    </div>
+  <div class="col-md-5">
+    <img class="featurette-image brown-border img-responsive" src="image/fish 1.jpg">
   </div>
 </div>
-<!-- END Marketing Block-->
+<!-- END 1. Detailed description -->
 
+<!-- START 2. Detailed description -->
+<hr class="featurette-divider">
+<div class="row featurette" style="color:white;">
+  <div class="col-md-5">
+    <img class="featurette-image brown-border img-responsive" src="image/boat 2.jpg">
+  </div>
+  <div class="col-md-7">
+      <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
+      <p class="lead">
+        A várakozásomnak megfelelően nagyon stabil alkotmánynak
+        bizonyult, nem billeg, és a lapos fenéknek köszönhetően az
+        orrát se emelgeti az evezőcsapásokra. Akár két ember is
+        kiállhat az oldalára, akkor is messze van a felborulástól.
+        Vígan belefér az egész család, de magányos horgászatnál is jól
+        jön a tágassága, kényelme. Nagyon tetszik, legszívesebben ki se
+        szállnék belőle :-)
+      </p>
+  </div>
+</div>
+<!-- END 2. Detailed description -->
+
+<!-- START 3. Detailed description -->
+<hr class="featurette-divider">
+<div class="row featurette" style="color:white;">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">Balatonszárszói apartman</h2>
+    <p class="lead">
+      Balatonszárszó egyre felkapottabb üdülőhely a gyermekes
+      családok körében, mivel a környéken 3 szabadstrand is
+      található, melyek jól felszereltek
+      ( focipálya, tenisz, röplabdapálya) valamint modern játszóterei
+      is gondoskodnak gyermekei szórakoztatásáról.A központi strandon
+      található sekélyvizű gyermeköböl egyedülálló a déli parton,
+      kifejezetten kisgyermekes családoknak ajánlott.
+      Az itt lévő strandok vize sekély, homokos, nem iszapos partja
+      rendezett , fásított , fűvel borított.
+    </p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-image brown-border img-responsive" src="image/house 1.jpg">
+  </div>
+</div>
+<!-- END 3. Detailed description -->
 <!-- START Carousel -->
 <div id="myCarousel" class="carousel brown-border" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -155,72 +147,6 @@
   </a>
 </div>
 <!-- END Carousel -->
-
-<!-- START 1. Detailed description -->
-<hr class="featurette-divider">
-<div class="row featurette" style="color:white;">
-  <div class="col-md-7">
-    <h2 class="featurette-heading" >A Balatoni potyka!</h2>
-      <p class="lead">
-        a sugarasúszójú csontos halak közé tartozó típusfaj,
-        a pontyalakúak rendjének és a pontyfélék családjának névadója.
-        Palearktikus elterjedésű halfaj. Eredeti őshazája Ázsia,
-        valamint Európa keleti fele (Kelet-Európa és a Duna-medence),
-        de tenyésztési céllal máshova is betelepítették, így ma már
-        gyakorlatilag minden földrész édesvizeiben megtalálható.
-        A mérsékelt égövi alföldi vidékek tavait és lassú vizű
-        folyóit kedveli.
-      </p>
-  </div>
-  <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/fish 1.jpg">
-  </div>
-</div>
-<!-- END 1. Detailed description -->
-
-<!-- START 2. Detailed description -->
-<hr class="featurette-divider">
-<div class="row featurette" style="color:white;">
-  <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/boat 2.jpg">
-  </div>
-  <div class="col-md-7">
-      <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
-      <p class="lead">
-        A várakozásomnak megfelelően nagyon stabil alkotmánynak
-        bizonyult, nem billeg, és a lapos fenéknek köszönhetően az
-        orrát se emelgeti az evezőcsapásokra. Akár két ember is
-        kiállhat az oldalára, akkor is messze van a felborulástól.
-        Vígan belefér az egész család, de magányos horgászatnál is jól
-        jön a tágassága, kényelme. Nagyon tetszik, legszívesebben ki se
-        szállnék belőle :-)
-      </p>
-  </div>
-</div>
-<!-- END 2. Detailed description -->
-
-<!-- START 3. Detailed description -->
-<hr class="featurette-divider">
-<div class="row featurette" style="color:white;">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">Balatonszárszói apartman</h2>
-    <p class="lead">
-      Balatonszárszó egyre felkapottabb üdülőhely a gyermekes
-      családok körében, mivel a környéken 3 szabadstrand is
-      található, melyek jól felszereltek
-      ( focipálya, tenisz, röplabdapálya) valamint modern játszóterei
-      is gondoskodnak gyermekei szórakoztatásáról.A központi strandon
-      található sekélyvizű gyermeköböl egyedülálló a déli parton,
-      kifejezetten kisgyermekes családoknak ajánlott.
-      Az itt lévő strandok vize sekély, homokos, nem iszapos partja
-      rendezett , fásított , fűvel borított.
-    </p>
-  </div>
-  <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/house 1.jpg">
-  </div>
-</div>
-<!-- END 3. Detailed description -->
 <?php endblock() ?>
 
 <?php startblock('custom_js') ?>

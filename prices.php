@@ -5,9 +5,7 @@
 <?php endblock() ?>
 
 <?php startblock('main') ?>
-<div style="text-align:center"><h1>Balatonszárszó</h1></div>
- <div class="main">
-  <div id="main_area">
+<div><h1>Balatonszárszó</h1></div>
 <!-- Slider -->
 <div class="row">
   <div class="col-xs-12" id="slider">
@@ -113,15 +111,21 @@
         <li class="col-sm-2">
             <a class="thumbnail pic6" id="carousel-selector-5"><img src="http://placehold.it/170x100"></a>
         </li>
-          
       </ul>   
-
     </div>
   </div>
-</div>     
+</div>
+
 <?php endblock() ?>
 
+
+
 <?php startblock('custom_js') ?>
+  <script type="text/javascript">
+    $(function() {
+      $('#myCarousel').carousel();
+    });
+  </script>
   <script type="text/javascript">
     $(function(){
       $('.hide-bullets li').mouseenter(function(){

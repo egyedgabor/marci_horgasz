@@ -276,3 +276,15 @@ body {
 .blog_mini_pictures > a > img {
   width: 289px;
 }
+
+.balatonMap {
+  width: 700px;
+
+}
+
+span.glyphicon-pushpin {
+    font-size: 1.5em !important;
+    margin-left: 275; 
+    margin-top: -80;
+    color: white !important;
+}

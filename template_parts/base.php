@@ -47,9 +47,8 @@
               <a class="glyphicon glyphicon-home" href="index.php"></a>
             </li>
             <li class="menu-item"><a href="about_me.php">Rólam</a> </li>
-            <li class="menu-item"><a href="contact.php">Kapcsolat</a></li>
-            <li class="menu-item"><a href="prices.php">Balatonszárszó</a></li>                            
-            <li class="menu-item"><a href="pictures.php">Képek</a></li>
+            <li class="menu-item"><a href="prices.php">Balatonszárszó</a></li>
+            <li class="menu-item"><a href="contact.php">Kapcsolat</a></li>                           
           </ul>
           <ul class="hidden-xs nav navbar-nav navbar-right sponsors">
             <li>

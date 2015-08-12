@@ -16,6 +16,13 @@
             <strong> Héjja Márton Kristóf</strong><br/>Balatonszárszó<br/> Magyarország
           </addres>
         </div>
+        <div>
+  <img style="margin-left: 50;" src="image/lake-balaton-781515__180.png"/>
+</div>
+<div>
+  <a href="https://www.google.hu/maps/place/Balatonsz%C3%A1rsz%C3%B3/@46.8246725,17.8455068,11z/data=!4m2!3m1!1s0x4769b09cc9e6b9f5:0xd95d7ce00d031045">
+  <span class="glyphicon glyphicon-pushpin" aria-hidden="true"> BalatonSzárszó</span></a> 
+</div>
       </div>
     </div>
 
