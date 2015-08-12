@@ -15,7 +15,7 @@
               <div class="carousel slide" id="myCarousel">
                   <!-- Carousel items -->
                   <div class="carousel-inner">
-                      <div class="active item" data-slide-number="0">
+                      <div class="item active" data-slide-number="0">
                       <img src="http://placehold.it/770x300"></div>
 
                       <div class="item" data-slide-number="1">
