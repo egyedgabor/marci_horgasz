@@ -5,39 +5,23 @@
 <?php endblock() ?>
 
 <?php startblock('main') ?>
+<h1 style="text-align:center; margin-bottom:30px">Horgásztúrák a Balatonon</h1>
 <!-- News -->
 <div class="row">
-  <div class="col-xs-12">
-    <h1>Hírek</h1>
+  <div class="col-md-6">
+    <div class="col-xs-12">
+      <h1>Hírek</h1>
+    </div>
+    <div class="row">
+      <div class="news">
+      </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="http://placehold.it/150x150" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h3 class="media-heading">Media heading</h3>
-        </div>
-      </div>
-    </div>     
-
-    <div class="col-md-6">
-      <div class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="http://placehold.it/150x150" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h3 class="media-heading">Media heading</h3>
-        </div>
-      </div>
-    </div>     
+  <div class="col-md-6">
+    <img class="featurette-image brown-border img-responsive" src="image/fish 1.jpg">
   </div>
 </div>
+<!-- News end -->
 
 <!-- START 1. Detailed description -->
 <hr class="featurette-divider">
@@ -108,4 +92,6 @@
 <?php endblock() ?>
 
 <?php startblock('custom_js') ?>
+<script src="js/jquery.loadTemplate-1.4.5.min.js"></script>
+<script src="js/news.js"></script>
 <?php endblock() ?>
