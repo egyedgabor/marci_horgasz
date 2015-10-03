@@ -32,7 +32,7 @@
           <h4 class="panel-title hatter_box_header">Kapcsolat felvétel</h4>
         </div>
         <div class="panel-body">
-          <form class="form-horizontal" id="contactform" method="post" form action="php/report.php" role="form">
+          <div class="form-horizontal">
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">Név</label>
               <div class="col-sm-8">
@@ -58,11 +58,15 @@
               </div>
             </div>
             <div class="col-sm-8 col-md-offset-2">
-              <input class="btn btn-default foot" type="submit" name="submit" value="Küldés" />
+              <button class="btn btn-default foot" id="email_button">Küldés</button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
+<?php endblock() ?>
+<?php startblock('custom_js') ?>
+<script src="js/email.js"></script>
+<script src="js/bootbox.min.js"></script>
 <?php endblock() ?>

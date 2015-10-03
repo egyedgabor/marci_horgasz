@@ -291,3 +291,7 @@ span.glyphicon-pushpin {
     margin-top: -80;
     color: white !important;
 }
+
+.modal-content {
+  color: black;
+}
