@@ -235,11 +235,6 @@ div.main-block {
     opacity: 0.8
 }
 
-.modalka {
-    width: 1140px !important;
-    margin-left: -262px !important;
-}
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -294,4 +289,8 @@ span.glyphicon-pushpin {
 
 .modal-content {
   color: black;
+}
+
+.auth_image {
+  padding: 0 !important;
 }

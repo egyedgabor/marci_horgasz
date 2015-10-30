@@ -10,12 +10,12 @@
     <div class="row panel profile-box">
     <!-- picture in the box-->
       <div class="col-md-4 bg_blur ">
-        <img src="http://placehold.it/400x300">
+        <img src="/marci_horgasz/image/profile_background.jpg">
       </div>
       <!-- profile picture-->
       <div class="col-md-8 col-xs-12 ">
-        <img src="http://placehold.it/150x150" class="img-thumbnail picture hidden-xs" />
-        <img src="http://placehold.it/80x150" class="img-thumbnail visible-xs picture_mob" />
+        <img src="/marci_horgasz/image/marci.jpg" class="img-thumbnail picture hidden-xs" />
+        <img src="/marci_horgasz/image/marci.jpg" class="img-thumbnail visible-xs picture_mob" />
          <!-- description-->
         <div class="header">
           <h1>Héjja Márton</h1>
@@ -42,6 +42,13 @@
       <script src="js/holder.js"></script>
     <?php } elseif ($ENV["RUN_MODE"] == "LIVE") { ?>
       <script src="js_min/holder.min.js"></script>
-    <?php } ?>  
+    <?php } ?>
+    <script type="text/javascript">
+$( ".image_mini" ).click(function(event) {
+  $('#mymodal').modal('show');
+  var original_url = $(event.target).data().original;
+  $('#modal_image').attr('src',original_url);
+});
+</script>
 
 <?php endblock() ?>

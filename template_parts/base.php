@@ -90,6 +90,23 @@
     </footer>
     <!-- footer end-->
 
+    <!-- modal start -->
+    <div class="modal fade" id="mymodal">
+      <div class="modal-dialog">
+        <div class="modal-content modal-sm" style="background-color: transparent">
+          <div class="modal-body" >
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <img src="" style="max-height: 550" id="modal_image">
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+     <!-- modal end -->
+
     <!-- JS 3th party -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -101,6 +118,7 @@
     <!-- JS EXTRA 3th party end -->
 
     <script type="text/javascript">
+    /*global $*/
       $(function () {
         //active menu
         $(".nav li a").each(function() {
@@ -109,7 +127,10 @@
       });
     </script>
 
-    <!-- My JS -->
+    <?php startblock('custom_js') ?>
+    <?php endblock() ?>
+
+        <!-- My JS -->
     <?php if ($ENV["RUN_MODE"] == "DEV") { ?>
       <script src="js/main.js"></script>
       <script src="js/pictures.js"></script>
@@ -119,7 +140,5 @@
     <?php } ?>  
     
     <!-- My JS END -->
-    <?php startblock('custom_js') ?>
-    <?php endblock() ?>
   </body>
 </html>

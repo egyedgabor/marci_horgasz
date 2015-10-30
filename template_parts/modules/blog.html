@@ -2,13 +2,22 @@
 <div class="row profile-box">
   <h1><div data-content="title"></div></h1>
   <div class="blog_mini_pictures hidden-md">
-    <img data-src="miniImage1" data-alt="mini1" data-link-wrap="miniImage1"/>
-    <img data-src="miniImage2" data-alt="mini2" data-link-wrap="miniImage2"/>
-    <img data-src="miniImage3" data-alt="mini3" data-link-wrap="miniImage3"/>
-    <img data-src="miniImage4" data-alt="mini4" data-link-wrap="miniImage4"/>
+    <img class="image_mini" data-src="miniImage1" data-alt="mini1" 
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig1"}]'/>
+    <img class="image_mini" data-src="miniImage2" data-alt="mini2"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig2"}]'/>
+    <img class="image_mini" data-src="miniImage3" data-alt="mini3"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig3"}]'/>
+    <img class="image_mini" data-src="miniImage4" data-alt="mini4"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig4"}]'/>
+    <img class="image_mini" data-src="miniImage5" data-alt="mini5"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig5"}]'/>
+    <img class="image_mini" data-src="miniImage6" data-alt="mini6"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBig6"}]'/>
   </div>
-  <div class="blog_pictures col-md-6 "> 
-    <img data-src="authorPicture" data-alt="author" data-link-wrap="authorPicture"/>
+  <div class="auth_image col-md-6 "> 
+    <img class="image_mini" data-src="authorPicture" data-alt="author"
+    data-template-bind='[{"attribute": "data-original", "value": "imageBigauth"}]'/>
   </div>
   <div class="post-container col-lg-6 col-md-7">
     <h3 data-content="subTitle"></h3>

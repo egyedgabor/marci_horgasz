@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class="col-md-6">
-    <img class="featurette-image brown-border img-responsive" src="image/fish 1.jpg">
+    <img class="featurette-image brown-border img-responsive" src="image/Balaton.mini.jpg">
   </div>
 </div>
 <!-- News end -->
@@ -40,7 +40,7 @@
       </p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/fish 1.jpg">
+    <img class="featurette-image brown-border img-responsive" src="image/fish 1.mini.jpg">
   </div>
 </div>
 <!-- END 1. Detailed description -->
@@ -49,7 +49,7 @@
 <hr class="featurette-divider">
 <div class="row featurette" style="color:white;">
   <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/boat 2.jpg">
+    <img class="featurette-image brown-border img-responsive" src="image/boat 2.mini.jpg">
   </div>
   <div class="col-md-7">
       <h2 class="featurette-heading">Horgászat Balatoni ladikból.</h2>
@@ -84,7 +84,7 @@
     </p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image brown-border img-responsive" src="image/house 1.jpg">
+    <img class="featurette-image brown-border img-responsive" src="image/house 1.mini.jpg">
   </div>
 </div>
 <!-- END 3. Detailed description -->
